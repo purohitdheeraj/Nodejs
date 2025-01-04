@@ -1,0 +1,7 @@
+2025-01-04T17:29:22.004Z - Logger Started
+2025-01-04T17:29:22.011Z - {"name":"John Doe","age":30}
+2025-01-04T17:29:24.012Z - Memory Usage: 15.54%
+2025-01-04T17:29:26.026Z - Memory Usage: 15.44%
+2025-01-04T17:29:28.032Z - Memory Usage: 15.53%
+2025-01-04T17:29:30.046Z - Memory Usage: 16.05%
+2025-01-04T17:29:32.024Z - Logger Stopped
