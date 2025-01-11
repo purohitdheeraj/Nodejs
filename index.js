@@ -8,6 +8,10 @@ app.get('/', (req, res)=>{
   res.send('This is home Page')
 })
 
+app.get('/products', (req, res)=>{
+  res.json({message: 'Hare Krishna', status: 200})
+})
+
 app.listen(PORT, ()=>{
   console.log(`app is listening to port ${PORT}`)
 })
