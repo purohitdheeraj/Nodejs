@@ -1,0 +1,25 @@
+name: CI of the Project
+
+# on event pull request the jobs will run
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build NodeJS app
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      
+      - name: Setup NodeJS
+        uses: actions/setup-node@v3
+
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Run compiler to build project
+        run: npm run build
