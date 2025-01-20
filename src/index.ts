@@ -13,7 +13,7 @@ app.get('/products', (req, res)=>{
 })
 
 app.get('/services', (req, res)=>{
-  res.json({message: 'Service Running Successfully', status: 200})
+  res.send('Service Running Successfully')
 })
 
 app.listen(PORT, ()=>{
